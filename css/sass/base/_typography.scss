@@ -1,0 +1,46 @@
+/* TYPOGRAPHY */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,800');
+@font-face {
+    font-family: 'ikaros';
+    src: url('../fonts/ikaros-regular-webfont.eot');
+    src: url('../fonts/ikaros-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ikaros-regular-webfont.woff') format('woff'),
+         url('../fonts/ikaros-regular-webfont.ttf') format('truetype'),
+         url('../fonts/ikaros-regular-webfont.svg#ikaros') format('svg');
+    font-weight: normal;
+}
+body {
+    font-family: $body-font-family;
+    font-size: $body-font-size;
+}
+h2 {
+    font-family: $heading-font-family;
+    font-size: 44px;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0 #003d32, 1px -1px 0 #003d32, -1px 1px 0 #003d32, 1px 1px 0 #003d32;
+    letter-spacing: 5px;
+}
+p {
+    color: $gray;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+a {
+    color: #309BFF;
+    transition: color .2s;
+    text-decoration: none;
+
+    &:hover {
+        color: #c1b05c;
+    }
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 680px) {
+    h2 {
+        font-size: 34px;
+    }
+}

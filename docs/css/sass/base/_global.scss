@@ -1,0 +1,38 @@
+/* GLOBAL STYLES */
+* {
+    @include box-sizing(border-box);
+}
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    -webkit-overflow-scrolling: touch;
+}
+header {
+    background-color: #003d32;
+    height: 137px;
+    padding: 18px;
+
+     p {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+     }
+}
+footer {
+    background-color: #003d32;
+    height: 280px;
+    padding: 100px;
+
+     p {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+     }
+}
+.container {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0px auto;
+}
