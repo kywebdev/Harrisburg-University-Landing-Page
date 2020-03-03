@@ -1,5 +1,6 @@
 # Harrisburg University Landing Page
+Live site: [https://harrisburgu.edu/geeks](https://harrisburgu.edu/geeks)
 
-Live link: http://harrisburgu.edu/geeks
+## Landing page template
 
-Needs header and footer
+- [Landing page](https://kywebdev.github.io/Harrisburg-University-Landing-Page/index.html)
